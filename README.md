@@ -15,9 +15,9 @@ Ethiopia. The project tracks and forecasts two Global Findex pillars:
 |------|-------------|--------|
 | 1 | Data Exploration & Enrichment | ✅ Complete (merged from `task-1`) |
 | 2 | Exploratory Data Analysis | ✅ Complete (merged from `task-2`) |
-| 3 | Event Impact Modeling | ⏳ Not started |
-| 4 | Forecasting Access & Usage | ⏳ Not started |
-| 5 | Dashboard Development | ⏳ Not started |
+| 3 | Event Impact Modeling | ✅ Complete |
+| 4 | Forecasting Access & Usage | ✅ Complete |
+| 5 | Dashboard Development | ✅ Complete |
 
 ## Data & Schema
 
@@ -37,8 +37,7 @@ affects both Access and Usage; forcing it into one pillar would bias the analysi
 
 `impact_link` records connect an `event` to an indicator via `parent_id` (the event's
 `record_id`), capturing the estimated direction, magnitude, lag, and evidence basis of the
-effect. See `data/raw/README.md` for the full schema documentation and
-`reports/task1_data_enrichment_report.md` for what was added and why.
+effect. See `data/raw/README.md` for the full schema documentation
 
 ## Repository Structure
 
